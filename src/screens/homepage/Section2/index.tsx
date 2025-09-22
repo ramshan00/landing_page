@@ -6,7 +6,7 @@ import services from "./messages";
 
 const AboutSection = () => {
   return (
-    <section className="w-full min-h-screen flex flex-col items-center justify-center relative z-50 p-10 gap-16">
+    <section className="w-full p-4 min-h-screen flex flex-col items-center justify-center relative z-50 md:p-10 gap-16">
       {/* Heading */}
       <motion.div
         initial={{ opacity: 0, y: -40 }}
@@ -24,7 +24,7 @@ const AboutSection = () => {
         </h2>
       </motion.div>
       {/* Services */}
-      <div className="space-y-8 max-w-[90%] w-full cursor-pointer">
+      <div className="space-y-8 md:max-w-[90%]  cursor-pointer w-full p-">
         {" "}
         {services.map((service) => (
           <div
