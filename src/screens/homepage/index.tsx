@@ -14,8 +14,8 @@ export default function HomeSection(){
             <AboutSection/>
             <Imagine/>
             <Believe/>
-            <StatsBlock/>
             <WhyUrdu/>
+            <StatsBlock/>
             <WorkReimagined/>
         </main>
     )
