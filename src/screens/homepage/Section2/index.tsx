@@ -9,7 +9,7 @@ const AboutSection = () => {
             threshold: 0.2,
           });
   return (
-    <section className="w-full px-4 min-h-screen flex flex-col items-center justify-center relative z-50 md:p-10 md:py-20 gap-16">
+    <section    ref={ref} className="w-full px-4 py-20 min-h-screen flex flex-col items-center justify-center relative z-50 md:p-10 md:py-20 gap-16">
       {/* Heading */}
       <motion.div
         initial={{ opacity: 0, y: -40 }}
@@ -19,11 +19,11 @@ const AboutSection = () => {
         className="flex justify-center"
       >
         <h2 className="text-5xl mont font-semibold text-center">
-          The
+          The {" "}
           <span className="text-[#05c0e0] drop-shadow-[0_0_8px_rgba(5,139,174,0.6)]">
-            URDU
+            URDU{" "}
           </span>
-          Edge
+          Edge{" "}
         </h2>
       </motion.div>
 
@@ -36,7 +36,7 @@ const AboutSection = () => {
 
           return (
             <motion.div
-              ref={ref}
+           
               key={service.id}
               initial={{ opacity: 0, x: direction }}
               animate={{

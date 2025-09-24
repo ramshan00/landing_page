@@ -28,7 +28,7 @@ export default function Footer() {
           <h4 className="font-semibold text-[#05c0e0] mb-4">Links</h4>
           <ul className="space-y-2">
             {[
-
+   { name: "Home", path: "/" },
        { name: "How it Works", path: "/works" },
     { name: "About", path: "/about" },
     { name: "Team", path: "/team" },
@@ -70,7 +70,7 @@ export default function Footer() {
 
       {/* Bottom Row */}
       <div className="border-t py-6 px-4 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500 max-w-7xl mx-auto">
-        <p>© 2025 Copyright by Team URDU. All rights reserved.</p>
+        <p>© 2025 Copyright by Team URDU & Dua Fatima. All rights reserved.</p>
   
       </div>
     </footer>

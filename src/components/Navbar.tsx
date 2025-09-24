@@ -14,6 +14,7 @@ export default function Nav() {
   };
 
   const navLinks = [
+      { name: "Home", path: "/" },
     { name: "How it Works", path: "/works" },
     { name: "About", path: "/about" },
     { name: "Team", path: "/team" },

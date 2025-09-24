@@ -62,10 +62,10 @@ const WorkReimagined: React.FC = () => {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 max-w-3xl text-center flex flex-col gap-8">
+      <div className="relative z-10 max-w-3xl text-center  flex flex-col gap-8">
         {/* Headline */}
         <motion.h1
-          className="mont text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-extrabold leading-tight tracking-tight"
+          className="mont text-4xl sm:text-6xl md:text-8xl lg:text-9xl font-extrabold leading-tight tracking-tight"
           variants={revealHeadline}
           initial="hidden"
           whileInView="show"
