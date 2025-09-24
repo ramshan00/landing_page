@@ -5,7 +5,7 @@ const services: ServiceFeature[] = [
         id: 1,
         title: "Profile Engineered to Stand Out",
         description:
-            "We don’t just write resumes—we build career stories that grab attention and get you noticed."
+            "We don’t just write resumes we build career stories that grab attention and get you noticed."
     },
     {
         id: 2,
@@ -17,7 +17,7 @@ const services: ServiceFeature[] = [
         id: 3,
         title: "AI-Powered Proposal Generator",
         description:
-            "No templates. Every proposal is unique, persuasive, and tailored to the client—delivered in seconds."
+            "No templates. Every proposal is unique, persuasive, and tailored to the client delivered in seconds."
     },
     {
         id: 4,

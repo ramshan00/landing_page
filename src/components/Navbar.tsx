@@ -16,8 +16,7 @@ export default function Nav() {
   const navLinks = [
     { name: "How it Works", path: "/works" },
     { name: "About", path: "/about" },
-    { name: "Product", path: "/product" },
-    { name: "Blog", path: "/blog" },
+    { name: "Team", path: "/team" },
     { name: "Contact", path: "/contact" },
   ];
 
@@ -45,7 +44,7 @@ export default function Nav() {
                   className="relative text-lg font-medium transition group"
                 >
                   {link.name}
-                  <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-[#04d9ff] transition-all duration-300 group-hover:w-full" />
+                  <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-[#05c0e0] transition-all duration-300 group-hover:w-full" />
                 </Link>
               </li>
             ))}

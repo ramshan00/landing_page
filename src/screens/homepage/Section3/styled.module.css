@@ -1,0 +1,6 @@
+.circle {
+    clip-path: circle(90% at 50% 520%);
+    width: 100%;
+    height: 180px;
+    background: linear-gradient(#01ccff50 , #0000000c );
+}

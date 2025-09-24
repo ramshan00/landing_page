@@ -3,6 +3,7 @@ import { MuseoModerno , Montserrat, Playfair_Display} from 'next/font/google'
 import "./globals.css";
 import Nav from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import ScrollToTopButton from "@/components/UpButton";
 
 const museomoderno= MuseoModerno({
   subsets:["latin"],
@@ -47,6 +48,7 @@ export default function RootLayout({
 
       {/* Content Section */}
         <Nav/>
+        <ScrollToTopButton />
       <div className="relative z-10">{children}</div>
         <Footer/>
     </div>
