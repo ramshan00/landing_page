@@ -1,10 +1,5 @@
+import { redirect } from "next/navigation";
 
-import HomeSection from "@/screens/homepage";
-
-export default function Home() {
-  return (
-   <main>
-    <HomeSection/>
-   </main>
-  );
+export default function Page() {
+  redirect("/home");
 }

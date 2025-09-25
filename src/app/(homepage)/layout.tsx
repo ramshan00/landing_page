@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { MuseoModerno , Montserrat, Playfair_Display} from 'next/font/google'
-import "./globals.css";
+import "@/app/globals.css";
 import Nav from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ScrollToTopButton from "@/components/UpButton";
@@ -28,12 +28,33 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
+    <div lang="en">
+      <div
         className={`${museomoderno.className} ${montserrat.className} ${playfairDisplay.className} antialiased`}
       >
-      {children}
-      </body>
-    </html>
+         {/* Background Video */}
+      <div className="relative min-h-screen">
+      {/* Full Background Video */}
+      <video
+        className="absolute top-0 left-0 w-full h-full object-cover z-0"
+        autoPlay
+        loop
+        muted
+        playsInline
+      >
+        <source src="/bg.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+
+      {/* Content Section */}
+        <Nav/>
+        <ScrollToTopButton />
+      <div className="relative z-10">{children}</div>
+        <Footer/>
+    </div>
+    
+    
+      </div>
+    </div>
   );
 }
