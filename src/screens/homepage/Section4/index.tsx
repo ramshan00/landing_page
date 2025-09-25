@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { useInView } from "react-intersection-observer";
-
+import Link from "next/link";
 const buttonVariant = {
   hover: {
     scale: 1.05,
@@ -69,14 +69,17 @@ export default function Believe() {
           animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
           transition={{ duration: 0.6, ease: "easeOut", delay: 0.3 }}
         >
+          <Link href={"/work"}>
+
           <Button
-            whileHover="hover"
+            className=""
+           whileHover="hover"
             whileTap="tap"
-            variants={buttonVariant}
             variant={"outline"}
+            variants={buttonVariant}
           >
             Learn more
-          </Button>
+          </Button></Link>
         </motion.div>
       </motion.div>
     </main>

@@ -5,6 +5,7 @@ import { useInView } from "react-intersection-observer";
 
 import React from "react";
 import { motion, Variants } from "framer-motion";
+import Link from "next/link";
 
 const containerVariants: Variants = {
   hidden: {},
@@ -117,11 +118,11 @@ const WhyUrdu: React.FC = () => {
             Start Now
           </Button>
 
-            <button
-              className="text-sm text-gray-300 underline underline-offset-4 hover:text-gray-100 transition"
+           <Link href={"/work"}> <button
+              className="text-sm cursor-pointer text-gray-300 underline underline-offset-4 hover:text-gray-100 transition"
             >
               Learn how URDU works →
-            </button>
+            </button></Link>
           </motion.div>
         </motion.article>
       </motion.div>

@@ -2,7 +2,6 @@
 
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { LampContainer } from "@/components/ui/lamp";
 import { Button  } from "@/components/ui/button";
 
@@ -21,12 +20,12 @@ export default function ContactComponent() {
         backgroundSize: "contain",
         backgroundRepeat: "repeat",
       }}
-      className="relative w-full flex-wrap min-h-screen flex justify-center items-center mont overflow-x-hidden pb-20 px-6 md:px-12 lg:px-24 bg-[#060c1b]/80 md:flex-nowrap"
+      className="relative w-full gap-10 flex-wrap min-h-screen flex justify-center items-center mont overflow-x-hidden pb-20 px-6 md:px-12 lg:px-24 bg-[#060c1b]/80 "
     >
       {/* Animated Grid Background */}
       <div />
       <LampContainer>
-        <div className="flex flex-col items-center justify-center text-center gap-8">
+        <div className="flex flex-col items-center justify-center text-center gap-8 ">
           {/* Headline */}
           <motion.h1
             className="text-4xl md:text-6xl font-bold mont"
@@ -37,7 +36,7 @@ export default function ContactComponent() {
           >
             Got an idea? <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#23D2EE] to-[#5FA6FA]">
-              Let’s build it.
+             {` Let’s build it.`}
             </span>
           </motion.h1>
           {/* tagline */}
@@ -50,32 +49,6 @@ export default function ContactComponent() {
             We reply fast. No bots. No templates. Just real humans ready to
             help.
           </motion.p>
-
-          {/* Social */}
-          <motion.div
-            className="flex justify-center gap-5"
-            initial={{ opacity: 0 }}
-            animate={inView ? { opacity: 1 } : { opacity: 0 }}
-            transition={{ delay: 0.6, duration: 0.5 }}
-          >
-            {[
-              { Icon: FaFacebookF, href: "https://www.facebook.com/" },
-              { Icon: FaInstagram, href: "https://www.instagram.com" },
-              { Icon: FaLinkedinIn, href: "https://www.linkedin.com/" },
-            ].map(({ Icon, href }, i) => (
-              <motion.a
-                key={i}
-                href={href}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-11 h-11 rounded-full bg-gray-900/40 flex items-center justify-center text-[#23D2EE] border border-[#23D2EE]/20 hover:border-[#23D2EE]/50 transition-all"
-                whileHover={{ y: -4, scale: 1.1 }}
-                whileTap={{ scale: 0.95 }}
-              >
-                <Icon size={20} />
-              </motion.a>
-            ))}
-          </motion.div>
         </div>
       </LampContainer>
 

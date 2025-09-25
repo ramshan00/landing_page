@@ -1,9 +1,7 @@
 import type { Metadata } from "next";
 import { MuseoModerno , Montserrat, Playfair_Display} from 'next/font/google'
 import "./globals.css";
-import Nav from "@/components/Navbar";
-import Footer from "@/components/Footer";
-import ScrollToTopButton from "@/components/UpButton";
+
 
 const museomoderno= MuseoModerno({
   subsets:["latin"],

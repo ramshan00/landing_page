@@ -32,7 +32,7 @@ const buttonVariant: Variants= {
   tap: { scale: 0.97 },
 };
 
-export default function Imagine() {
+export default function TeamSection3() {
   // Intersection observer for scroll-based animation
   const { ref, inView } = useInView({
     triggerOnce: false, // replay on scroll up/down
@@ -58,20 +58,23 @@ export default function Imagine() {
             initial="hidden"
             animate={inView ? "show" : "hidden"}
           >
-            Own. Your.{" "}
+            WE BUILD THE 
+{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#6ce5fa] to-[#058bae]">
-              Future.
+           IMPOSSIBLE
             </span>
           </motion.h1>
         </div>
 
         <motion.p
-          className="mt-6 mont text-lg md:text-xl text-gray-300 max-w-2xl mx-auto"
+          className="mt-6 mont text-lg md:text-xl text-gray-300 max-w-3xl mx-auto"
           variants={subVariant}
           initial="hidden"
           animate={inView ? "show" : "hidden"}
         >
-          You bring the ambition. We will bring the system.
+       While others talk, we execute. While others dream, we deliver. We’re building a new reality where AI doesn’t replace humans it amplifies them.
+       <br />
+Every line of code fights mediocrity. Every algorithm moves freelancers closer to freedom.
         </motion.p>
 
         {/* Buttons */}
@@ -90,7 +93,8 @@ export default function Imagine() {
           >
             Start Now
           </Button>
-<Link href={"/work"}>
+
+        <Link href={"/work"}>
 
           <Button
             className=""
@@ -102,7 +106,8 @@ export default function Imagine() {
             Learn more
           </Button></Link>
         </motion.div>
-      </div>
+
+        </div>  
 
       {/* Subtle vignette */}
       <div className="absolute inset-0 pointer-events-none" aria-hidden>

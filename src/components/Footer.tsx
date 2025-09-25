@@ -28,7 +28,7 @@ export default function Footer() {
           <h4 className="font-semibold text-[#05c0e0] mb-4">Links</h4>
           <ul className="space-y-2">
             {[
-   { name: "Home", path: "/" },
+   { name: "Home", path: "/home" },
        { name: "How it Works", path: "/works" },
     { name: "About", path: "/about" },
     { name: "Team", path: "/team" },
