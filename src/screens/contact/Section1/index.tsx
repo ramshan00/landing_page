@@ -21,7 +21,7 @@ export default function ContactSection1() {
 
       <div className="overflow-hidden text-center">
         <motion.p
-          className=" text-[#05c0e0] text-5xl sm:text-6xl md:text-7xl mont font-bold hover:scale-95 transition-all duration-300 uppercase"
+          className=" text-[#05c0e0] text-4xl sm:text-6xl md:text-7xl mont font-bold hover:scale-95 transition-all duration-300 uppercase"
           initial={{ y: "100%" }}
           animate={{ y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}

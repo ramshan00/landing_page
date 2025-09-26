@@ -14,7 +14,7 @@ export const teamData: TeamCardProps[] = [
     name: "Ramsha Noshad",
     role: "AI, ML & Engineer",
     imageUrl: "/Ramsha.png",
-   socials:"linkedin.com/in/ramsha-noshad-51342a257"
+   socials:"https://linkedin.com/in/ramsha-noshad-51342a257"
     
   },
   {

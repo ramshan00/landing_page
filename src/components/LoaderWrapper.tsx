@@ -5,7 +5,7 @@ import Lottie from "lottie-react";
 import animationData from "../../public/loader.json";
 
 interface LoaderWrapperProps {
-  children: ReactNode; // ✅ unknown ki jagah ReactNode
+  children: ReactNode; 
 }
 
 const LoaderWrapper: React.FC<LoaderWrapperProps> = ({ children }) => {

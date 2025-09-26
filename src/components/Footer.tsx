@@ -29,7 +29,7 @@ export default function Footer() {
           <ul className="space-y-2">
             {[
    { name: "Home", path: "/home" },
-       { name: "How it Works", path: "/works" },
+       { name: "How it Works", path: "/work" },
     { name: "About", path: "/about" },
     { name: "Team", path: "/team" },
     { name: "Contact", path: "/contact" },
@@ -51,7 +51,7 @@ export default function Footer() {
           <h4 className="font-semibold text-[#05c0e0] mb-4">Support</h4>
           <ul className="space-y-2">
             {[
-              { name: "Terms & Conditions", path: "/terms" },
+              { name: "Terms & Conditions", path: "/termscondition" },
               { name: "Help", path: "/help" },
               { name: "Contact", path: "/contact" },
             ].map((link) => (

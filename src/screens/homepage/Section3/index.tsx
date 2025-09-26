@@ -76,7 +76,7 @@ export default function Imagine() {
 
         {/* Buttons */}
         <motion.div
-          className="mt-10 flex items-center justify-center gap-6 mont"
+          className="mt-10 flex  items-center justify-center gap-6 mont flex-wrap md:flex-nowrap"
           initial={{ opacity: 0 }}
           animate={inView ? { opacity: 1 } : { opacity: 0 }}
           transition={{ delay: 0.6, duration: 0.5 }}

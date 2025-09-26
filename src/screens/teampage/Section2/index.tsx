@@ -1,4 +1,3 @@
-// components/TeamSection.tsx
 import TeamCard, { TeamCardGroup } from "@/components/TeamCard";
 import { teamData } from "./messages";
 
