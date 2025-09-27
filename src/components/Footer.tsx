@@ -18,8 +18,8 @@ export default function Footer() {
             </h2>
           </div>
         </Link>
-          <p className="text-sm text-[#B0B3B8]">
-We build and manage world-class developer teams to turn your vision into reality.          </p>
+          <p className="text-sm text-[#B0B3B8]">A smarter way for students to find compatible roommates and safe housing.
+         </p>
         </div>
 
         {/* Middle Column */}
@@ -69,7 +69,7 @@ We build and manage world-class developer teams to turn your vision into reality
 
       {/* Bottom Row */}
       <div className="border-t py-6 px-4 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500 max-w-7xl mx-auto">
-        <p>© 2025 Copyright by Team URDU & Dua Fatima. All rights reserved.</p>
+        <p>© 2025 Copyright by Team Next Door Mate & Dua Fatima. All rights reserved.</p>
   
       </div>
     </footer>

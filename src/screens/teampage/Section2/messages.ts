@@ -23,10 +23,10 @@ export const teamData: TeamCardProps[] = [
     imageUrl: "/Urooj.png",
     socials: "https://www.linkedin.com/in/urooj-sadiq-a91031212/",
   },
-  {
-    name: "Uzma Khan",
-    role: "Front-end developer ",
-    imageUrl: "/Uzma.png",
-    socials: "https://www.linkedin.com/in/uzma-fateh-187a01276?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-  },
+  // {
+  //   name: "Uzma Khan",
+  //   role: "Front-end developer ",
+  //   imageUrl: "/Uzma.png",
+  //   socials: "https://www.linkedin.com/in/uzma-fateh-187a01276?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  // },
 ];

@@ -9,9 +9,11 @@ export default function TeamSection2() {
             className="font-extrabold museo leading-tight text-[3rem] md:text-[5rem] lg:text-[6rem]"
           
           >
-            Meet Team{" "}
+            The talent <br/>
+
+            {" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#6ce5fa] to-[#058bae]">
-              URDU
+          Behind the magic
             </span>
           </h1>
         </div>

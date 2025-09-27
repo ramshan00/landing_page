@@ -1,4 +1,5 @@
 import { FaqSection } from "./types";
+
 const faqSections: FaqSection[] = [
   {
     title: "Account & Profile",
@@ -6,77 +7,77 @@ const faqSections: FaqSection[] = [
       {
         question: "How do I create or update my profile?",
         answer:
-          "Log in, go to “Profile,” and add/update your skills, experience, and portfolio.",
+          "Simply sign up, go to your profile section, and add details like budget, lifestyle, study habits, food preferences, and city. You can update anytime.",
       },
       {
         question: "Can I delete my account?",
         answer:
-          "Yes, email support@urducareerbot.com with your registered email, and we’ll remove it.",
+          "Yes, you can delete your account from settings. If you face issues, email support@nextdoormate.com with your registered email, and we’ll remove it.",
       },
       {
-        question: "Do I need to be fluent in English?",
+        question: "Do I need to fill in all lifestyle details?",
         answer:
-          "Not necessarily. URDU supports multiple languages, including Urdu, to make freelancing more accessible.",
-      },
-    ],
-  },
-  {
-    title: "Jobs & Proposals",
-    items: [
-      {
-        question: "Which job platforms are supported?",
-        answer:
-          "Currently we scan top freelancing platforms, with more integrations coming soon.",
-      },
-      {
-        question: "Why don’t I see some jobs?",
-        answer:
-          "Job results depend on your skills and filters. Try updating your profile or adjusting keywords.",
-      },
-      {
-        question: "How does the proposal generator work?",
-        answer:
-          "URDU analyzes the job post and your profile, then creates a personalized proposal draft. You can edit before sending.",
+          "It’s recommended! The more details you share (e.g., cleanliness, sleep schedule, noise tolerance), the more accurate your roommate matches will be.",
       },
     ],
   },
   {
-    title: "Billing & Pricing",
+    title: "Roommate Matching",
     items: [
       {
-        question: "Is URDU free?",
+        question: "How does the matching system work?",
         answer:
-          "Yes, a free plan is available. Premium features like advanced insights may require a subscription.",
+          "Our AI agents compare your lifestyle, budget, and habits with others to suggest the most compatible roommates.",
       },
       {
-        question: "Which payment methods are accepted?",
+        question: "Will I know why a match is suggested?",
         answer:
-          "We accept major debit/credit cards, PayPal, and local wallets (coming soon).",
+          "Yes! The Wingman Agent explains the reasons for compatibility and possible compromises—for example, 'Both are night owls with similar budgets.'",
       },
       {
-        question: "Can I cancel anytime?",
+        question: "Can I see conflicts before deciding?",
         answer:
-          "Yes, subscriptions are flexible and can be canceled from your account settings.",
+          "Yes, the Red Flag Agent highlights lifestyle mismatches such as 'One prefers quiet nights, the other hosts late gatherings.'",
       },
     ],
   },
   {
-    title: "Troubleshooting",
+    title: "Housing & Rooms",
     items: [
       {
-        question: "I don’t see any job matches. What should I do?",
+        question: "Does the system also suggest rooms?",
         answer:
-          "Update your skills, broaden keywords, and ensure your profile is complete.",
+          "Yes, the Room Hunter Agent can connect you to available listings in your budget and preferred city/area.",
       },
       {
-        question: "My proposal isn’t generating. Why?",
+        question: "What if the room is already taken?",
         answer:
-          "Check your internet connection and profile completeness. If the issue persists, contact support.",
+          "Listings are updated regularly, but availability may change quickly. You can refresh or set alerts for new matches.",
       },
       {
-        question: "I found a bug. How do I report it?",
+        question: "Can I filter housing options?",
         answer:
-          "Send details to support@urducareerbot.com with screenshots if possible.",
+          "Yes, you can filter by rent, location, amenities, and room type to find the best option for you and your matched roommate.",
+      },
+    ],
+  },
+  {
+    title: "Safety & Support",
+    items: [
+      {
+        question: "How do you ensure safe matches?",
+        answer:
+          "Profiles are structured and verified where possible. The system highlights red flags to help you make transparent, safe decisions.",
+      },
+      {
+        question: "What if I face a problem with my match?",
+        answer:
+          "You can unmatch anytime and request new recommendations. Our agents will suggest alternatives.",
+      },
+      {
+        question: "How can I report an issue?",
+        answer:
+          "Send details to support@nextdoormate.com with screenshots or profile info, and our team will review it quickly.",
       },
     ],
   },

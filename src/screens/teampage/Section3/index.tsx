@@ -74,7 +74,9 @@ export default function TeamSection3() {
         >
        While others talk, we execute. While others dream, we deliver. We’re building a new reality where AI doesn’t replace humans it amplifies them.
        <br />
-Every line of code fights mediocrity. Every algorithm moves freelancers closer to freedom.
+We are a team driven by innovation and empathy. Every line of code we write brings students closer to better living experiences and safer roommate choices.
+
+
         </motion.p>
 
         {/* Buttons */}
