@@ -1,44 +1,45 @@
 // src/data/workSteps.ts
 import { WorkStep } from "./types";
+
 export const workSteps: WorkStep[] = [
   {
     id: 1,
     step: "01",
-    title: "Sign Up & Share Skills",
-    highlight: "Your journey starts here. Tell us your skills, goals, and experience.",
+    title: "Sign Up & Share Preferences",
+    highlight: "Start your journey by sharing budget, lifestyle habits, and location.",
     description:
-      "Our AI transforms it into a professional profile designed to stand out — clear, optimized, and ready to win.",
+      "Our AI transforms it into a structured profile  clear, detailed, and ready for smart matching.",
   },
   {
     id: 2,
     step: "02",
-    title: "Resume Auto-Creation",
-    highlight: "Your resume crafted and optimized for every opportunity.",
+    title: "Profile Parsing",
+    highlight: "No more messy ads. Clean, comparable attributes.",
     description:
-      "AI generates tailored resumes with perfect formatting, relevant keywords, and compelling narratives.",
+      "The Profile Reader Agent scans Urdu/English roommate posts and converts them into structured, easy-to-compare profiles.",
   },
   {
     id: 3,
     step: "03",
-    title: "Smart Job Matching",
-    highlight: "LinkedIn, Fiverr, Upwork, Freelancer. Curated for you.",
+    title: "Smart Match Scoring",
+    highlight: "Compatibility scored with precision.",
     description:
-      "Our AI agents scan thousands of opportunities across platforms. You only see jobs that match your skills.",
+      "Sleep schedules, cleanliness, study habits, and budgets  the Match Scorer Agent evaluates and ranks your best-fit roommates.",
   },
   {
     id: 4,
     step: "04",
-    title: "Proposal Generator",
-    highlight: "One click → job-specific, authentic proposals.",
+    title: "Conflict Detection & Wingman Insights",
+    highlight: "Spot clashes before they happen.",
     description:
-      "AI analyzes client requirements and generates personalized proposals that sound authentically you.",
+      "The Red Flag Agent identifies potential lifestyle conflicts, while the Wingman Agent explains matches and suggests compromises.",
   },
   {
     id: 5,
     step: "05",
-    title: "Client Insights",
-    highlight: "Know your client before you meet. Complete analysis.",
+    title: "Housing Suggestions",
+    highlight: "Find housing that fits your lifestyle and budget.",
     description:
-      "Deep research on client style, history, and preferences. Enter every conversation confident.",
+      "The Room Hunter Agent connects you to available housing listings in your preferred area and budget.",
   },
 ];

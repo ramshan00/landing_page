@@ -28,9 +28,9 @@ export default function Nav() {
         <Link href={"/"}>
           {" "}
           <div className="leading-tight">
-            <h1 className="text-4xl font-bold museo tracking-wide">urdu.</h1>
+            <h1 className="text-4xl font-bold museo tracking-wide">next.</h1>
             <h2 className="text-[10px] mont tracking-[2px] text-gray-300">
-              CAREER BOT
+              DOOR MATE
             </h2>
           </div>
         </Link>

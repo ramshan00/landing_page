@@ -30,8 +30,9 @@ export default function Believe() {
         transition={{ duration: 0.8, ease: [0.34, 1.56, 0.64, 1] }}
       >
         <h2>
-          We believe in{" "}
-          <span className="text-[#05c0e0]">people</span>, until they{" "}
+         We believe in
+{" "}
+          <span className="text-[#05c0e0]">students,</span> until they{" "}
           <span className="text-[#05c0e0]">believe</span> in themselves again.
         </h2>
       </motion.div>
@@ -44,18 +45,16 @@ export default function Believe() {
         transition={{ duration: 0.8, ease: "easeOut", delay: 0.15 }}
       >
         <p className="text-base sm:text-lg md:text-md mont leading-relaxed text-gray-300">
-          Every feature we build is designed to{" "}
-          <span className="text-white font-semibold">restore confidence</span>,{" "}
-          unlock opportunities, and help freelancers break free from endless job
-          struggles.
+          Every agent we build is designed to 
+{" "}
+          <span className="text-white font-semibold">remove stress, ensure safety</span>,{" "}
+         and make student living simpler and smarter.
           <br />
-          With every profile we optimize, every proposal we generate, and every
-          job we match{" "}
+          We parse profiles, score matches, and flag red flags reshaping  {" "}
           <span className="text-[#05c0e0] font-semibold">
-            we are rewriting the future of work
+          how students find roommates and housing
           </span>
-          . You are not alone in the hustle. Our agents walk beside you,
-          ensuring you rise, compete, and win.
+          . With our agents by your side, you live, learn, and thrive.
           <br />
           <span className="font-bold text-xl sm:text-2xl mt-4 block text-white">
             Start your journey. <br /> Own your career.

@@ -12,15 +12,14 @@ export default function Footer() {
         <Link href={"/"}>
           {" "}
           <div className="leading-tight">
-            <h1 className="text-4xl font-bold museo tracking-wide">urdu.</h1>
+            <h1 className="text-4xl font-bold museo tracking-wide">next.</h1>
             <h2 className="text-[10px] mont tracking-[2px] text-gray-300">
-              CAREER BOT
+              DOOR MATE
             </h2>
           </div>
         </Link>
           <p className="text-sm text-[#B0B3B8]">
-           We help build and manage a team of world class developers to bring your vision to life
-          </p>
+We build and manage world-class developer teams to turn your vision into reality.          </p>
         </div>
 
         {/* Middle Column */}

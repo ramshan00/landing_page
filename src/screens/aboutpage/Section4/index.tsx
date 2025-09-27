@@ -8,21 +8,22 @@ import React from "react";
 const values = [
   {
     title: "Clarity",
-    desc: "Real jobs. No spam. No noise.",
+    desc: "Real matches. No messy ads. No guesswork.",
   },
   {
     title: "Efficiency",
-    desc: "Automate the grind. Save time.",
+    desc: "Automate the search. Save time.",
   },
   {
     title: "Authenticity",
-    desc: "Your proposals. Your voice. Your win.",
+    desc: "Your lifestyle. Your preferences. Your perfect match.",
   },
   {
     title: "Growth",
-    desc: "Smarter with every use. Better every day.",
+    desc: "Smarter with every use. Better living every day.",
   },
 ];
+
 
 export default function ValuesSection() {
   const { ref, inView } = useInView({

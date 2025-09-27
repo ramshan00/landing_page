@@ -55,25 +55,24 @@ export default function HelpSection() {
             {/* Intro */}
             <div className="bg-black/30 backdrop-blur-sm rounded-2xl p-8 border border-[rgba(5,192,224,0.2)]">
               <h2 className="text-3xl font-bold museo mb-5">
-                <SplitHeading>About URDU Career Bot</SplitHeading>
+                <SplitHeading>About Room Matcher AI</SplitHeading>
               </h2>
               <p className="text-gray-300 mb-7 mont text-lg leading-relaxed">
-{`                URDU Career Bot is your AI-powered freelancing partner. It doesn’t just find jobs it helps you build a strong presence, win projects, and grow as a freelancer.
-`}              </p>
+                Room Matcher AI is your AI-powered student living assistant. It doesn’t just find roommates it helps you build compatible living situations, avoid conflicts, and connect with safe housing.
+              </p>
 
               <h3 className="text-2xl font-semibold museo mb-5 text-white">
-                Here’s what URDU does for you:
+                Here’s what Room Matcher AI does for you:
               </h3>
               <ul className="space-y-3 text-gray-300 list-disc pl-6 mont text-lg">
-                <li><span className="font-medium text-[#05c0e0]">Smart Profiles</span>  AI builds and refines your freelancing profile.</li>
-                <li><span className="font-medium text-[#05c0e0]">Resume Builder</span>  Generate professional resumes instantly.</li>
-                <li><span className="font-medium text-[#05c0e0]">Job Matching</span>  Find tailored opportunities across platforms.</li>
-                <li><span className="font-medium text-[#05c0e0]">Proposal Writing</span>  Auto-generate authentic, winning proposals.</li>
-                <li><span className="font-medium text-[#05c0e0]">Client Insights</span>  Get deeper understanding of clients before applying.</li>
-                <li><span className="font-medium text-[#05c0e0]">Interview Prep</span>  Prepare confidently with AI-driven guidance.</li>
+                <li><span className="font-medium text-[#05c0e0]">Profile Reader</span> Parses messy roommate ads into structured profiles.</li>
+                <li><span className="font-medium text-[#05c0e0]">Match Scorer</span> Rates compatibility based on lifestyle, habits, and budget.</li>
+                <li><span className="font-medium text-[#05c0e0]">Red Flag Detector</span> Highlights potential conflicts before they happen.</li>
+                <li><span className="font-medium text-[#05c0e0]">Wingman Insights</span> Explains matches and suggests compromises.</li>
+                <li><span className="font-medium text-[#05c0e0]">Room Hunter (Optional)</span> Connects matched students to available housing listings.</li>
               </ul>
               <p className="text-gray-300 mt-8 mont text-lg">
-                With URDU, you focus on your skills — we take care of the rest.
+                With Room Matcher AI, you focus on your studies we take care of the roommate search.
               </p>
             </div>
 
@@ -120,12 +119,9 @@ export default function HelpSection() {
               <p className="text-gray-300 mb-7 mont text-lg">
                 We’re here to help. Choose the option that works best for you.
               </p>
-
-            
-
               <div className="mt-10">
-                <Button asChild className="w-full bg-[#05c0e0] hover:bg-[#04a8c4] text-black font-bold  text-lg">
-                  <Link href="">Contact Now</Link>
+                <Button asChild className="w-full bg-[#05c0e0] hover:bg-[#04a8c4] text-black font-bold text-lg">
+                  <Link href="/contact">Contact Now</Link>
                 </Button>
               </div>
             </div>

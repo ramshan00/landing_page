@@ -6,20 +6,23 @@ export const heroStats: StatItem[] = [
   {
     id: 1,
     metric: "Prototype",
-    title: "Job Matching Engine",
-    subtitle: "Our AI filters out noise and pinpoints relevant, skill-matched opportunities tested on demo profiles."
+    title: "Roommate Matching Engine",
+    subtitle:
+      "Our AI turns messy ads into clean profiles and scores compatibility  tested on student datasets.",
   },
   {
     id: 2,
     metric: "Live Beta",
-    title: "Proposal Generator",
-    subtitle: "Custom, persuasive proposals generated in seconds functional and tested in real workflows."
+    title: "Conflict Detector",
+    subtitle:
+      "The Red Flag Agent spots lifestyle clashes, while the Wingman Agent explains matches and suggests compromises.",
   },
   {
     id: 3,
     metric: "2025",
     title: "Launched at Hackathon",
-    subtitle: "Built for freelancers, designed to grow into the future of work."
+    subtitle:
+      "Built for students and unveiled at a national stage  redefining safe, smart, and stress-free living.",
   },
 ];
 
@@ -27,13 +30,15 @@ export const heroStats1: StatItem[] = [
   {
     id: 4,
     metric: "Global Ready",
-    title: "Scans Multiple Platforms",
-    subtitle: "Currently connects with LinkedIn, Fiverr, and Upwork expanding to more soon."
+    title: "Housing Integration",
+    subtitle:
+      "Currently connects students with verified housing listings  expanding to more datasets soon.",
   },
   {
     id: 5,
     metric: "All-in-One",
-    title: "Career OS",
-    subtitle: "From resumes to job matches today, to interview prep and client insights tomorrow."
-  }
+    title: "Student Living OS",
+    subtitle:
+      "From roommate matching today, to smart housing, safety checks, and lifestyle insights tomorrow.",
+  },
 ];

@@ -65,13 +65,13 @@ const WorkReimagined: React.FC = () => {
       <div className="relative z-10 max-w-3xl text-center  flex flex-col gap-8">
         {/* Headline */}
         <motion.h1
-          className="mont text-4xl sm:text-6xl md:text-8xl lg:text-9xl font-extrabold leading-tight tracking-tight"
+          className="mont uppercase text-4xl sm:text-6xl md:text-8xl lg:text-9xl font-extrabold leading-tight tracking-tight"
           variants={revealHeadline}
           initial="hidden"
           whileInView="show"
           
         >
-          WORK.<br />REIMAGINED.
+          Living.<br />REIMAGINED.
         </motion.h1>
 
         {/* Subtext */}
@@ -82,8 +82,7 @@ const WorkReimagined: React.FC = () => {
           whileInView="show"
       
         >
-          From resumes to proposals, from first gig to career growth this is the future of freelancing.
-        </motion.p>
+From messy ads to smart matches, from finding the right roommate to trusted housing, welcome to the future of student living.        </motion.p>
 
         {/* CTA Button */}
         <motion.div
@@ -98,7 +97,7 @@ const WorkReimagined: React.FC = () => {
             variants={buttonVariant}
             aria-label="Start Now"
           >
-            Start Building Now
+            Start Matching Now
           </Button>
         </motion.div>
       </div>

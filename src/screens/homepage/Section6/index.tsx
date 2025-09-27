@@ -66,7 +66,7 @@ const WhyUrdu: React.FC = () => {
                 className="mont text-6xl md:text-7xl  font-extrabold leading-tight tracking-tight text-white"
                 variants={revealFromBottom}
               >
-                Why <span className="text-[#05c0e0]">URDU CAREER?</span>
+                Why <span className="text-[#05c0e0]">Next Door Mate?</span>
               </motion.h2>
             </div>
 
@@ -90,15 +90,14 @@ const WhyUrdu: React.FC = () => {
             className="mont text-1xl  text-gray-200 leading-relaxed"
             variants={fadeUp}
           >
-            This is not just building a tool.<br /><strong className="text-white">This is Refind version of freelancing.</strong>
+            This is not just a tool.<br /><strong className="text-white">This is a new way of student living.</strong>
           </motion.p>
 
           <motion.p
             className="mont mt-4 text-md text-gray-300"
             variants={fadeUp}
           >
-            Our mission is to empower talent in a world where <strong>attention is currency</strong>. You focus on your craft.
-            We will handle the rest  from discovery to proposal to client-fit.
+           We are here to make your journey safer, simpler, and stress-free. From cleaning up messy roommate ads to scoring compatibility and suggesting trusted housing, our AI handles it all. <strong>You focus on studies and growth </strong> we will do the rest.
           </motion.p>
 
           <motion.div
@@ -121,7 +120,7 @@ const WhyUrdu: React.FC = () => {
            <Link href={"/work"}> <button
               className="text-sm cursor-pointer text-gray-300 underline underline-offset-4 hover:text-gray-100 transition"
             >
-              Learn how URDU works →
+              Learn how Next Door Mate →
             </button></Link>
           </motion.div>
         </motion.article>

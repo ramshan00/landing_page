@@ -1,36 +1,36 @@
 import ServiceFeature from "./types";
 
 const services: ServiceFeature[] = [
-    {
-        id: 1,
-        title: "Profile Engineered to Stand Out",
-        description:
-            "We don’t just write resumes we build career stories that grab attention and get you noticed."
-    },
-    {
-        id: 2,
-        title: "Precision Job Match",
-        description:
-            "Our agents scan LinkedIn, Upwork, Fiverr, and Freelancer to cut noise and bring jobs that truly fit you."
-    },
-    {
-        id: 3,
-        title: "AI-Powered Proposal Generator",
-        description:
-            "No templates. Every proposal is unique, persuasive, and tailored to the client delivered in seconds."
-    },
-    {
-        id: 4,
-        title: "Intelligent Growth Loop",
-        description:
-            "You grow, the system learns. Smarter matches and sharper proposals with every step you take."
-    },
-    {
-        id: 5,
-        title: "Future-Ready Add-Ons",
-        description:
-            "Next up: AI interview prep, client profiling, and real-time insights to power your freelancing journey."
-    }
+  {
+    id: 1,
+    title: "Clear Profiles, No Clutter",
+    description:
+      "Forget messy ads. Our Profile Reader Agent turns English/Urdu posts into simple details budget, lifestyle, and habits.",
+  },
+  {
+    id: 2,
+    title: "Smart Match Scoring",
+    description:
+      "No guesswork. Our Match Scorer Agent checks study style, sleep routine, cleanliness, and budget to rate real compatibility.",
+  },
+  {
+    id: 3,
+    title: "Red Flag Detector",
+    description:
+      "Spot clashes early. From ‘early riser’ vs. ‘night owl,’ our agent flags issues before they turn into conflicts.",
+  },
+  {
+    id: 4,
+    title: "Honest Wingman",
+    description:
+      "No mysteries. The Wingman Agent explains why a match works (or doesn’t) and suggests middle ground.",
+  },
+  {
+    id: 5,
+    title: "Room Hunter",
+    description:
+      "Looking for housing too? The Room Hunter Agent links you to verified, budget-friendly listings.",
+  },
 ];
 
 export default services;

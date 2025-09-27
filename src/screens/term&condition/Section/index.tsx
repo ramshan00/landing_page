@@ -16,7 +16,7 @@ export default function TermsPage() {
         {/* Intro */}
         <div className="bg-black/30 backdrop-blur-sm rounded-2xl p-8 border border-[rgba(5,192,224,0.15)] mb-12 mont">
           <p className="text-gray-300 text-lg leading-relaxed">
-            Welcome to <span className="text-white font-medium">Urdu Career Board</span>. By accessing or using our website and services, you agree to the following Terms and Conditions. Please read them carefully.
+            Welcome to <span className="text-white font-medium">Room Matcher AI</span>. By accessing or using our website and services, you agree to the following Terms and Conditions. Please read them carefully.
           </p>
         </div>
 
@@ -26,19 +26,19 @@ export default function TermsPage() {
             {
               id: 1,
               title: "Acceptance of Terms",
-              content: "By using Urdu Career Board, you agree to comply with and be bound by these Terms. If you do not agree, please discontinue use of the site."
+              content: "By using Room Matcher AI, you agree to comply with and be bound by these Terms. If you do not agree, please discontinue use of the platform."
             },
             {
               id: 2,
               title: "Services Provided",
               content: (
                 <>
-                  Urdu Career Board offers tools and resources to help freelancers and job seekers, including:
+                  Room Matcher AI provides tools and resources to help students find compatible roommates and housing, including:
                   <ul className="list-disc pl-6 mt-3 space-y-2 text-gray-300">
-                    <li>AI-powered profile and resume creation</li>
-                    <li>Smart job matching across multiple platforms</li>
-                    <li>Proposal generation and client insights</li>
-                    <li>Interview preparation support</li>
+                    <li>Profile parsing and structured attribute creation</li>
+                    <li>Smart roommate compatibility scoring</li>
+                    <li>Conflict detection and explanations</li>
+                    <li>Housing listing suggestions (optional)</li>
                   </ul>
                   <p className="mt-3">
                     These services may evolve over time. We reserve the right to add, remove, or modify features.
@@ -64,9 +64,9 @@ export default function TermsPage() {
               title: "Payments & Subscriptions",
               content: (
                 <>
-                  Urdu Career Board offers both free and premium plans.
+                  Room Matcher AI may offer free and premium plans.
                   <br />
-                  Payment is required for premium features and is processed securely via third-party providers.
+                  Payment for premium features is processed securely via third-party providers.
                   <br />
                   Subscriptions renew automatically unless canceled. You may cancel anytime in your account settings.
                   <br />
@@ -77,18 +77,18 @@ export default function TermsPage() {
             {
               id: 5,
               title: "Intellectual Property",
-              content: "All content, design, branding, and technology of Urdu Career Board belong to us. Users may not copy, resell, or redistribute any part of the platform without prior written consent."
+              content: "All content, design, branding, and technology of Room Matcher AI belong to us. Users may not copy, resell, or redistribute any part of the platform without prior written consent."
             },
             {
               id: 6,
               title: "User Content",
               content: (
                 <>
-                  Users may post or upload content (e.g., profile data, portfolios, resumes).
+                  Users may post or upload content (e.g., profile data, preferences).
                   <br />
-                  You retain ownership of your content, but by posting, you grant Urdu Career Board a license to use, display, and process it for the purpose of providing services.
+                  You retain ownership of your content, but by posting, you grant Room Matcher AI a license to use, display, and process it for providing services.
                   <br />
-                  You must ensure that your content does not violate any laws, copyrights, or third-party rights.
+                  You must ensure your content does not violate any laws, copyrights, or third-party rights.
                 </>
               )
             },
@@ -97,9 +97,9 @@ export default function TermsPage() {
               title: "Limitation of Liability",
               content: (
                 <>
-                  Urdu Career Board is a career-assistance tool. We do not guarantee job placements or specific results.
+                  Room Matcher AI is a roommate and housing assistance tool. We do not guarantee roommate matches, housing availability, or specific outcomes.
                   <br />
-                  We are not responsible for third-party platforms, clients, or employers.
+                  We are not responsible for third-party landlords, roommates, or listings.
                   <br />
                   To the maximum extent allowed by law, we are not liable for losses, damages, or disputes arising from the use of our services.
                 </>
@@ -108,7 +108,7 @@ export default function TermsPage() {
             {
               id: 8,
               title: "Third-Party Links",
-              content: "The website may contain links to external sites. Urdu Career Board is not responsible for the content or policies of third-party websites."
+              content: "The website may contain links to external sites. Room Matcher AI is not responsible for the content or policies of third-party websites."
             },
             {
               id: 9,
@@ -118,12 +118,12 @@ export default function TermsPage() {
             {
               id: 10,
               title: "Updates to Terms",
-              content: "These Terms may be updated from time to time. Continued use of Urdu Career Board means you accept the revised Terms."
+              content: "These Terms may be updated from time to time. Continued use of Room Matcher AI means you accept the revised Terms."
             },
             {
               id: 11,
               title: "Governing Law",
-              content: "These Terms are governed by the applicable laws of Pakistan. Any disputes shall be resolved in the courts of Karachi, Pakistan."
+              content: "These Terms are governed by the laws of Pakistan. Any disputes shall be resolved in the courts of Karachi, Pakistan."
             },
             {
               id: 12,

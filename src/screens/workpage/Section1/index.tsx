@@ -37,10 +37,13 @@ export default function WorkSection1() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut", delay: 0.6 }}
       >
-        <p>Simple. Reliable. Step-by-step to freelance success.</p>
+        <p>Simple. Reliable. Step-by-step to smarter living.
+
+
+</p>
         <p>
           
-AI takes care of the hard part. You focus on your craft.
+AI handles the messy roommate search. You focus on your studies and growth.
         </p>
       </motion.div>
 

@@ -74,8 +74,7 @@ export default function AboutSection2() {
           initial="hidden"
           animate={inView ? "show" : "hidden"}
         >
-          The freelance world is massive, but broken. Too much spam, too much grind, too little reward.
-        </motion.p>
+{`Student living is challenging, but it doesn’t have to be.  `}      </motion.p>
 
         {/* Pillars - Diagonal Cards */}
         <motion.div

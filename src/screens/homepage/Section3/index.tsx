@@ -60,7 +60,7 @@ export default function Imagine() {
           >
             Own. Your.{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#6ce5fa] to-[#058bae]">
-              Future.
+              Room.
             </span>
           </motion.h1>
         </div>
@@ -71,7 +71,7 @@ export default function Imagine() {
           initial="hidden"
           animate={inView ? "show" : "hidden"}
         >
-          You bring the ambition. We will bring the system.
+         Bring your lifestyle, habits, and budget. We will match you with roommates who truly fit, and even suggest housing that feels like home.
         </motion.p>
 
         {/* Buttons */}
@@ -88,7 +88,7 @@ export default function Imagine() {
             variants={buttonVariant}
             aria-label="Start Now"
           >
-            Start Now
+            Find Roommates
           </Button>
 <Link href={"/work"}>
 

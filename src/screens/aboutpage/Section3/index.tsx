@@ -6,12 +6,13 @@ import { useInView } from "react-intersection-observer";
 import React from "react";
 
 const visionItems = [
-  "Tailored profiles",
-  "Smart job matching",
-  "Authentic proposals",
-  "Client insights",
-  "Interview prep",
+  "Structured profiles with lifestyle details",
+  "Smart roommate matching",
+  "Conflict detection and compromise suggestions",
+  "Housing recommendations",
+  "Transparent explanations for every match",
 ];
+
 
 export default function VisionSection() {
   const { ref, inView } = useInView({
@@ -41,9 +42,9 @@ export default function VisionSection() {
           </h2>
           <p className="text-lg mont md:text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
             We are building the{" "}
-            <span className="text-white font-medium">Career Operating System</span> for the new era of work.
+            <span className="text-white font-medium">Student Living Operating System</span> for the new era of campus life
             <br />
-            One platform that learns with you:
+            One platform that grows with you
           </p>
         </motion.div>
 
@@ -102,10 +103,9 @@ export default function VisionSection() {
               transition={{ delay: 1.3, duration: 0.7 }}
             >
               <p className="mont text-2xl md:text-3xl font-medium text-gray-300">
-                From first gig to global career.
-              </p>
+From your first roommate to safe, compatible living              </p>
               <p className="mont text-3xl md:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#6ce5fa] to-[#05c0e0] mt-2">
-                URDU grows with you.
+               Next Door Mate grows with you.
               </p>
             </motion.div>
           </div>

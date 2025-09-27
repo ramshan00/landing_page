@@ -59,7 +59,7 @@ export default function WorkSection3() {
           >
             Ready to  {" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#6ce5fa] to-[#058bae]">
-             take off?
+             move in?
             </span>
           </motion.h1>
         </div>
@@ -70,7 +70,7 @@ export default function WorkSection3() {
           initial="hidden"
           animate={inView ? "show" : "hidden"}
         >
-         Your skills. Our AI. The perfect team.
+         Your Lifestyle.. Our AI. The perfect Match.
         </motion.p>
 
         {/* Buttons */}
@@ -87,7 +87,7 @@ export default function WorkSection3() {
             variants={buttonVariant}
             aria-label="Start Now"
           >
-            Start Now
+            Start Matching Now
           </Button>
         </motion.div>
         </div>

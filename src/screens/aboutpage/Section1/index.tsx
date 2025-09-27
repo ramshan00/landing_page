@@ -37,10 +37,11 @@ export default function AboutSection1() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut", delay: 0.6 }}
       >
-        <p>Freelancers waste hours chasing work. Endless scrolling. Generic proposals. Missed opportunities.
+        <p>Students waste hours searching for roommates and housing endless scrolling, conflicting ads, poor matches.
+
 </p>
         <p>
-We built <strong>URDU</strong> to end that cycle. AI handles the noise. You focus on mastery.
+<strong>Room Matcher AI ends the stress</strong> . Our agents handle the hard part so you can focus on studies and comfortable living.
         </p>
       </motion.div>
 

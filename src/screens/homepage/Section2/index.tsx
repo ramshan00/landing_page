@@ -21,7 +21,7 @@ const AboutSection = () => {
         <h2 className="text-5xl mont font-semibold text-center">
           The {" "}
           <span className="text-[#05c0e0] drop-shadow-[0_0_8px_rgba(5,139,174,0.6)]">
-            URDU{" "}
+            Next Door Mate{" "}
           </span>
           Edge{" "}
         </h2>
