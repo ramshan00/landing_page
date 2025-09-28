@@ -62,15 +62,17 @@ export default function HeroSection() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1.0, ease: "easeOut", delay: 0.8 }}
       >
-        <Button
-          className="font-semibold shadow-lg cursor-pointer bg-gradient-to-r from-[#41dffa] to-[#058bae] text-black mont"
-          whileHover="hover"
-          whileTap="tap"
-          variants={buttonVariant}
-          aria-label="Start Now"
-        >
-          Get Started
-        </Button>
+        <Link href="https://sample-door.vercel.app/signup">
+          <Button
+            className="font-semibold shadow-lg cursor-pointer bg-gradient-to-r from-[#41dffa] to-[#058bae] text-black mont"
+            whileHover="hover"
+            whileTap="tap"
+            variants={buttonVariant}
+            aria-label="Start Now"
+          >
+            Get Started
+          </Button>
+        </Link>
       </motion.div>
 
       {/* Scroll Button */}
